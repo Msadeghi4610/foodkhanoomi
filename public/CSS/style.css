@@ -1,0 +1,83 @@
+@font-face {
+    font-family: YekanBakh;
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/YekanBakh-Bold.bbd877a3.woff') format('woff');
+}
+@font-face {
+    font-family: YekanBakh;
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/YekanBakh-Medium.f7360956.woff') format('woff');
+}
+@font-face {
+    font-family: YekanBakh;
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/YekanBakh-Heavy.630c4fa4.woff') format('woff');
+}
+@font-face {
+    font-family: YekanBakh;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/YekanBakh-Fat.e508fcc6.woff') format('woff');
+}
+@font-face {
+    font-family: vaziri;
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Vazir-FD.woff2') format('woff');
+}
+.f-vazir{
+    font-family: vaziri;
+}
+body{
+    font-family: YekanBakh;!important;
+    font-weight: 700;
+    flex: 1;
+
+}
+.font_yekan{
+    font-family: YekanBakh;
+}
+.fs_05{
+    font-size: 0.8rem;
+}
+.fw-700{
+    font-family: YekanBakh;
+    font-weight: 700;
+}
+.font_bold{
+    font-weight: 600;
+}
+#logo_image_brand img{
+    width: 75px;
+    height: 75px;
+}
+#login_header:hover{
+    background-color: #EBEEEF;
+}
+#phone_header span{
+    line-height: 1px;
+}
+.c_item{
+    height: 90vh;
+}
+.c_pic{
+    height: 100%;
+}
+#Food .card:hover{
+    box-shadow:5px 10px 5px #cecece;
+}
+footer{
+    padding-bottom: 100px;
+    padding-top: 120px;
+    flex: 1;
+}
+ul{
+    text-decoration: none;
+}
+#list_food .accordion-body img{
+    width: 65px;
+    height: 65px;
+}
